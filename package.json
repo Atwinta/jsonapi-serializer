@@ -1,6 +1,6 @@
 {
   "name": "@atwinta/jsonapi-serializer",
-  "version": "3.6.10",
+  "version": "3.6.11",
   "description": "A Node.js framework agnostic library for serializing your data to JSON API",
   "main": "index.js",
   "types": "types.d.ts",
