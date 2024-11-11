@@ -3,6 +3,7 @@
   "version": "3.6.10",
   "description": "A Node.js framework agnostic library for serializing your data to JSON API",
   "main": "index.js",
+  "types": "types.d.ts",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
@@ -22,5 +23,8 @@
     "grunt-browserify": "^5.3.0",
     "mocha": "^5.2.0",
     "mongoose": "^4.3.4"
+  },
+  "peerDependencies": {
+    "@types/jsonapi-serializer": "^3.6.8"
   }
 }
